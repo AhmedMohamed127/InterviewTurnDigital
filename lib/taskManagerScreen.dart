@@ -146,9 +146,11 @@ class _TaskManagerScreenState extends State<TaskManagerScreen>
           _markAsUpcoming(task);
         }
       },
+
       child: Card(
         margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         elevation: 2,
+        //main List
         child: ListTile(
           leading: CircleAvatar(
             backgroundColor: isUpcoming ? Colors.blue : Colors.green,
